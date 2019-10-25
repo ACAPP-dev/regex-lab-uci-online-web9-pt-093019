@@ -32,5 +32,5 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(string)
   string.match?(/\A[A-Z]\w+[.,!,?]$/)
-
+  binding.pry
 end
