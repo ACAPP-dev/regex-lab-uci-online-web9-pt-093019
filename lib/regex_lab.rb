@@ -25,7 +25,7 @@ def words_five_letters_long(string)
       return_array << word
     end
 
-    binding.pry
+    #binding.pry
   end
   return_array
 
