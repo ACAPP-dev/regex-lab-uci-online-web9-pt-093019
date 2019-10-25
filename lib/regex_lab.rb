@@ -21,7 +21,7 @@ def words_five_letters_long(string)
   return_array = []
 
   string.split.each do |word|
-    if word.match?(/\A(un)\w+(ing)$/)
+    if word.match?(/\w{5}/)
       return_array << word
     end
 
