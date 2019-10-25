@@ -4,7 +4,7 @@ def starts_with_a_vowel?(string)
 end
 
 def words_starting_with_un_and_ending_with_ing(string)
-  string.scan(/\A(un)\w+(ing)$/)
+  string.scan(/un\w+ing/)
 
 
 end
