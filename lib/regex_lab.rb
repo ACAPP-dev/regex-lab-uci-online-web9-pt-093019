@@ -31,6 +31,6 @@ def words_five_letters_long(string)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(string)
-  string.match?(/\A[A-Z]\.+[.,!,?]$/)
+  string.match?(/\A[A-Z].+[.,!,?]$/)
   #binding.pry
 end
