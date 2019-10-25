@@ -10,16 +10,9 @@ def words_starting_with_un_and_ending_with_ing(string)
 end
 
 def words_five_letters_long(string)
-  return_array = []
 
-  string.split.each do |word|
-    if word.match?(/\b\w{5}\b/)
-      return_array << word
-    end
-
-    #binding.pry
-  end
-  return_array
+  string.scan(/\b\w{5}\b/)
+    
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(string)
