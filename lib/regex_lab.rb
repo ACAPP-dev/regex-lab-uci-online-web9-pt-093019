@@ -18,6 +18,16 @@ def words_starting_with_un_and_ending_with_ing(string)
 end
 
 def words_five_letters_long(string)
+  return_array = []
+
+  string.split.each do |word|
+    if word.match?(/\A(un)\w+(ing)$/)
+      return_array << word
+    end
+
+    #binding.pry
+  end
+  return_array
 
 
 end
