@@ -28,6 +28,10 @@ def words_five_letters_long(string)
     #binding.pry
   end
   return_array
+end
+
+def first_word_capitalized_and_ends_with_punctuation?(string)
+
 
 
 end
