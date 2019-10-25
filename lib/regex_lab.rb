@@ -16,3 +16,8 @@ def words_starting_with_un_and_ending_with_ing(string)
   return_array
 
 end
+
+def words_five_letters_long(string)
+
+
+end
