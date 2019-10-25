@@ -11,8 +11,8 @@ def words_starting_with_un_and_ending_with_ing(string)
       return_array << word
     end
 
-    binding.pry
+    #binding.pry
   end
-
+  return_array
 
 end
